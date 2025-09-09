@@ -1,0 +1,5 @@
+---
+applications:
+- name: presidio-webhook
+  memory: 2G
+  disk_quota: 4G
