@@ -1,1 +1,1 @@
-web: python presidio-webhook.py
+web: uv run python presidio-webhook.py

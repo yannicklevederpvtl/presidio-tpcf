@@ -1,5 +1,6 @@
 ---
 applications:
 - name: presidio-webhook
+  buildpack: python_buildpack
   memory: 2G
   disk_quota: 4G

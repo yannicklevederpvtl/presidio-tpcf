@@ -1,0 +1,15 @@
+[project]
+name = "presidio-webhook"
+version = "0.1.0"
+description = "Presidio anonymization webhook for chat completions"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "flask",
+    "presidio-analyzer",
+    "presidio-anonymizer",
+    "numpy>=1.26,<2",
+    "en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl",
+]
+
+[tool.uv]
+package = false
